@@ -19,3 +19,10 @@ $(jqueryElements).inViewPort({
                 }
             });
 ```
+
+## Params
+
+`inViewPort()` will return an object with the following:
+
+- `in(_element)` execute callback function on `_element` param when element enter into viewPort.
+- `out(_element)` execute callback function on `_element` param when element outfrom viewPort.
