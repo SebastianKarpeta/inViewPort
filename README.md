@@ -9,13 +9,13 @@ Simply:
 var jqueryElements = $('.class' or '#id');
 
 $(jqueryElements).inViewPort({
-                paralax: true,
-                onlyOne: false,
+                paralax: true,  /* optional */
+                onlyOne: false, /* execute callback only one */
                 in : function (_element) {
-                    $(_element).addClass('animated pulse');
+                    /* Function on enter into viewPort */
                 },
                 out: function (_element) {
-                    $(_element).removeClass('animated pulse');
+                    /* Function on exit into viewPort */
                 }
             });
 ```
