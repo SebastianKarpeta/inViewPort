@@ -5,6 +5,7 @@ This simple script detect that element is on viewPort and executed callbacks .in
 
 Simply: 
 
+```javascript
 var jqueryElements = $('.class' or '#id');
 
 $(jqueryElements).inViewPort({
@@ -17,3 +18,4 @@ $(jqueryElements).inViewPort({
                     $(_element).removeClass('animated pulse');
                 }
             });
+```
