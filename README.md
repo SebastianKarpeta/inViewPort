@@ -26,3 +26,5 @@ $(jqueryElements).inViewPort({
 
 - `in(_element)` execute callback function on `_element` param when element enter into viewPort.
 - `out(_element)` execute callback function on `_element` param when element outfrom viewPort.
+- `onlyOne` (default: false) execute callback function on `_element` param when element enter into viewPort only one time.
+- `paralax` (default: false) make element background as paralax effect.
