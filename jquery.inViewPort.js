@@ -2,7 +2,7 @@
  * jQuery.inViewPort
  * https://github.com/SebastianKarpeta/inViewPort/
  *
- * Copyright (c) 2015 Sebastian Karpeta
+ * Copyright (c) 2015 Sebastian Karpeta (sebastian@karpeta.org)
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
  */
 (function ($) {
